@@ -1,0 +1,63 @@
+
+
+.Organize{
+
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position:relative;
+    min-height: 100vh;
+    background: darkolivegreen;
+
+}
+
+.wrapper{
+margin-left: 150px;
+margin-right: 200px;
+margin-bottom: 25px;
+margin-top: 25px;
+position: center;
+}
+
+
+.GeorgePic{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.text-box {
+    margin-top: 5px;
+    margin-right: 200px;
+    color: #fff;
+    font-size: 30px;
+    
+}
+
+#CampTitle{
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 45px;
+    padding-top: 75px;
+    color: white;
+}
+
+
+
+
+.text-box p {
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+a{
+    color:cornflowerblue;
+}
+
+a:hover{
+    color:rgb(10, 195, 195);
+}

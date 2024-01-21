@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkolivegreen;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.box1, .box2 {
+    flex: 1; 
+    border: 5px solid;
+    margin: 100px;
+    background-color: white;
+    height: 630px;
+    width: 40%;
+    
+}
+
+#Glove1{
+
+    padding-left: 220px;
+    padding-top: 30px;
+    width: 300px;
+    height: auto;
+}
+
+
+#Header{
+
+    font-size: 40px;
+    margin-left: 75px;
+    margin-top: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+
+}
+
+#Title{
+
+    font-size: 20px;
+    margin-left: 75px;
+    font-family: Trebuchet MS;
+
+}
+
+.Price{
+
+    
+    padding-left: 75px;
+    font-size: 40px;
+
+}
+
+.button{
+
+    font-size: 25px;
+    margin-left: 500px;
+    height: 100px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+.button :hover{
+
+    transform: scale(1.05);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+
+}
+.stockCounter{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.StockP{
+
+    padding-left: 75px;
+
+}

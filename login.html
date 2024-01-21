@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang ="en">
+<head>
+   <title>Login up Form</title>
+
+   <link rel="stylesheet" href="stylesheet.css"/>
+   <link rel="shorcut icon" type="x-icon" href="logo.png">
+
+
+</head>
+
+<body>
+
+   
+   <div class="container">
+      <form  class="form" id="login">
+
+         <h1 class="title">Login</h1>
+
+         <div class="message message_error"></div>
+         <div class="input_group">
+            <input type="text" class="input" autofocus placeholder="Username or email" id="emailID">
+            <div class="input_error_message"></div>
+         </div>
+
+         <div class="input_group">
+            <input type="password" class="input" autofocus placeholder="Password" id="passwordID">
+            <div class="input_error_message"></div>
+         </div>
+         <a href="LandingPage.html"><button class="button" type="button" >Submit</button></a>
+         
+         <p class="text">
+            <a  class="link" href="LandingPage.html" target="_blank" id="linkCreateAccount">Continue as Guest</a>
+         </p>
+
+      </form>
+   </div>
+   <script src="main.js"></script>
+   <script src="../SignUpPage/SignUpLogic.js"></script>
+</body>
+</html>
